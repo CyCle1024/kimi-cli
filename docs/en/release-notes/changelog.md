@@ -4,6 +4,8 @@ This page documents the changes in each Kimi Code CLI release.
 
 ## Unreleased
 
+- Core: Enable `trust_env` in aiohttp client session to respect proxy environment variables (`https_proxy`, `http_proxy`, etc.)
+
 ## 1.24.0 (2026-03-18)
 
 - Shell: Increase pasted text placeholder thresholds to 1000 characters or 15 lines (previously 300 characters or 3 lines), making voice/typeless workflows less disruptive
